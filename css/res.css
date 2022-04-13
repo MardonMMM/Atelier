@@ -1,0 +1,645 @@
+@media screen and (max-width:840px) {
+    header{
+        background-color: #181511;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    
+    }
+    header .header__navbar{
+        display: block;
+        line-height: 20px;
+        align-items: center;
+        float: left;
+    }
+    header .header__navbar a{
+       padding: 0px 20px;
+       color: #ACA592;
+       text-transform: uppercase;
+       text-decoration: none;
+       font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ACA592;
+    display: block;
+    }
+    header .header__navbar .active{
+        color: #FFAE2B;
+    }
+    header .header__navbar h2{
+        color: #FFAE2B;
+    
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 28px;
+
+    color: #FFAE2B;
+    }
+    header .header__button{
+    float: right;
+    line-height: 30px;
+    padding: 0;
+    
+    }
+    header .header__button a{
+        padding: 8px 19px;
+    }
+    section{
+        position: relative;
+    }
+    #myvideo{
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+    }
+    section .text{
+        text-align: center;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.438));
+        padding: 140px 0px;
+       
+    }
+    section .text span{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+    }
+    section .text h1{
+        
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    /* or 114% */
+    
+    text-align: center;
+    letter-spacing: 1px;
+    
+    color: #FFFFFF;
+    }
+    section .text button{
+        margin-top: 50px;
+        padding: 14px 24px;
+        background-color: #FFAE2B;
+        border: none;
+        border-radius: 4px;
+    
+    }
+    .boxs{
+        width: 100%;
+        background-color: #181511;
+        height:auto;
+        
+    }
+    .box__item{
+        width: 98%;
+        margin: auto;
+    }
+    .boxs .box__item{
+       
+        padding-left: 300px;
+    }
+    .boxs .box{
+        background-color: #181511;
+        width: 40%;
+        border: 1px solid #ACA592;
+        float: left;
+        text-align: center;
+        margin: auto;
+        margin: 30px;
+       justify-content: space-around;
+       box-shadow: 0px 0px 24px;
+    padding: 10px 0px;
+    }
+    .boxs .box h2{
+        color: white;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    .boxs .box img{
+        /* padding: 20px; */
+        width: 100%;
+    }
+}
+@media screen and (max-width:680px) {
+    header{
+        background-color: #181511;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    
+    }
+    header .header__navbar{
+        display: block;
+        line-height: 30px;
+        align-items: center;
+        float: left;
+    }
+    header .header__navbar a{
+       padding: 0px 20px;
+       color: #ACA592;
+       text-transform: uppercase;
+       text-decoration: none;
+       font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ACA592;
+    display: block;
+    }
+    header .header__navbar .active{
+        color: #FFAE2B;
+    }
+    header .header__navbar h2{
+        color: #FFAE2B;
+    
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 28px;
+
+    color: #FFAE2B;
+    }
+    header .header__button{
+    float: right;
+    line-height: 30px;
+    
+    }
+    section{
+        position: relative;
+    }
+    #myvideo{
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        min-height: 100%;
+    }
+    section .text{
+        text-align: center;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.438));
+        padding: 100px 0px;
+       
+    }
+    section .text span{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+    }
+    section .text h1{
+        
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 114% */
+    
+    text-align: center;
+    letter-spacing: 1px;
+    
+    color: #FFFFFF;
+    }
+    section .text button{
+        margin-top: 30px;
+        padding: 8px 15px;
+        background-color: #FFAE2B;
+        border: none;
+        border-radius: 4px;
+    
+    }
+    .boxs{
+        width: 100%;
+        background-color: #181511;
+        height:auto;
+        
+    }
+    .box__item{
+        width: 98%;
+        margin: auto;
+    }
+    .boxs .box__item{
+       
+        padding-left: 0px;
+    }
+    .boxs .box{
+        background-color: #181511;
+        width: 90%;
+        border: 1px solid #ACA592;
+        float: none;
+        text-align: center;
+        margin: auto;
+        margin: 20px auto;
+       justify-content: space-around;
+       box-shadow: 0px 0px 24px;
+    padding: 10px 0px;
+    }
+    .boxs .box h2{
+        color: white;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    .boxs .box img{
+        /* padding: 20px; */
+        width: 100%;
+    }
+}
+@media screen and (max-width:446px) {
+    header{
+        background-color: #181511;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    
+    }
+    header .header__navbar{
+        display: block;
+        line-height: 30px;
+        align-items: center;
+        float: left;
+    }
+    header .header__navbar a{
+       padding: 0px 20px;
+       color: #ACA592;
+       text-transform: uppercase;
+       text-decoration: none;
+       font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ACA592;
+    display: block;
+    }
+    header .header__navbar .active{
+        color: #FFAE2B;
+    }
+    header .header__navbar h2{
+        color: #FFAE2B;
+    
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 28px;
+
+    color: #FFAE2B;
+    }
+    header .header__button{
+    float: right;
+    line-height: 30px;
+    
+    }
+    section{
+        position: relative;
+    }
+    #myvideo{
+        width: 100%;
+        position: absolute;
+        z-index: -3;
+        
+    }
+    section .text{
+        text-align: center;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.438));
+        padding: 45px 0px;
+       
+       
+    }
+    section .text span{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+    }
+    section .text h1{
+        
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 114% */
+    
+    text-align: center;
+    letter-spacing: 1px;
+    
+    color: #FFFFFF;
+    }
+    section .text button{
+        margin-top: 30px;
+        padding: 8px 15px;
+        background-color: #FFAE2B;
+        border: none;
+        border-radius: 4px;
+    
+    }
+    .boxs{
+        width: 100%;
+        background-color: #181511;
+        height:auto;
+        
+    }
+    .box__item{
+        width: 98%;
+        margin: auto;
+    }
+    .boxs .box__item{
+       
+        padding-left: 0px;
+    }
+    .boxs .box{
+        background-color: #181511;
+        width: 90%;
+        border: 1px solid #ACA592;
+        float: none;
+        text-align: center;
+        margin: auto;
+        margin: 20px auto;
+       justify-content: space-around;
+       box-shadow: 0px 0px 24px;
+    padding: 10px 0px;
+    }
+    .boxs .box h2{
+        color: white;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    .boxs .box img{
+        /* padding: 20px; */
+        width: 100%;
+    }
+
+    .pic img{
+        width: 100%;
+    }
+    .boxs2{
+        display: block;
+        margin: auto;
+        background-color: #181511;
+        overflow: scroll;
+    }
+    .text2{
+        background-color: #181511;
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .text2 h1{
+    
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        /* identical to box height, or 117% */
+        
+        text-align: center;
+        
+        color: #FFAE2B;
+    }
+    .text2 span{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #ACA592;
+    }
+    
+    .boxs2 .box{
+        padding: 30px;
+        position: relative;
+        border: 1px solid #ACA592;
+        transition: .5s all;
+        z-index: 4;
+        height: 300px;
+        display: block;
+       
+    }
+    .boxs2 .box h3{
+        color: white;
+    }
+    .boxs2 .box:hover{
+        transition: .5s all;
+        transform: translateY(10px);
+    }
+    .boxs2 img{
+        padding: 30px;
+    }
+    .boxs2 #posit{
+        position: absolute;
+      
+    }
+    .boxs2 .posit1{
+        top: 50px;
+        left: 28px;
+    }
+    .boxs2 .posit2{
+        top: 50px;
+        left: 50px;
+    }
+    .boxs2 .posit3{
+        top: 50px;
+        left: 28px;
+    }
+    .boxs2 p{
+        line-height: 1.8;
+    }
+    .boxs2 .margin{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    .sec{
+        background-color: #181511;
+    }
+    .picture{
+        background-color: #181511;
+        text-align: center;
+        display: block;
+        padding: 100px 0px;
+        width: 90%;
+        margin: auto;
+        
+    }
+    .pic{
+        position: relative;
+        margin-left: 20px;
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .picture i{
+        font-size: 250px;
+        color: white;
+    }
+    .pic .ins{
+        width: 30px;
+        position: absolute;
+        right: 90px;
+        top: -15;
+    }
+    .text3{
+        background-color: #181511;
+        display: block;
+        line-height: 4;
+        text-align: center;
+        padding: 50px;
+    }
+    .text3 h1{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFAE2B;
+    }
+    .text3 span{
+        
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+    
+    text-align: center;
+    
+    color: #ACA592;
+    }
+    .text3 p{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    text-align: center;
+    
+    color: #ACA592;
+    }
+    .text3 ul{
+        display: block;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        list-style: none;
+        width: 50%;
+        margin-top: 30px;
+    }
+    .text3 ul li i{
+        margin: auto;
+        font-size: 40px;
+        border: 1px solid;
+        color: white;
+        display: none;
+        
+    }
+    footer{
+        background-color: #181511;
+    }
+    
+    .footer{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #181511;
+        margin: auto;
+        line-height: 30px;
+        border-top: 2px solid #ACA592;
+    }
+    .footer ul{
+     display: block;
+        list-style: none;
+    }
+    .footer span{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* identical to box height, or 183% */
+    
+    
+    color: #ACA592;
+    }
+    .footer ul li a{
+        border-left: none;
+        padding: 0px 10px;
+        color: #ACA592;
+        text-decoration: none;
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    /* identical to box height, or 273% */
+    
+    
+    color: #FFAE2B;
+    }
+    .footer span span{
+        font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    /* identical to box height, or 250% */
+    
+    
+    color: #FFAE2B;
+    }
+}
